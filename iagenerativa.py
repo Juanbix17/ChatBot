@@ -12,22 +12,22 @@ api_key = os.getenv("GEMINI_API_KEY")
 MODELO = os.getenv("GEMINI_MODEL",
                    "gemini-3.5-flash-lite",)
 
-cliente = genai.Client(api_key=api_key)
+cliente = genai.Client(api_key=api_key) if api_key else None
 
 def leer_contexto()-> str:
     #leer la informacion institucional de datos.txt
-    rutadatos = BASE_DIR/ "datos.txt"
+    ruta_datos = BASE_DIR/ "datos.txt"
 
-    if not rutadatos.exists():
+    if not ruta_datos.exists():
         return ""
 
-    return rutadatos.read_text(encoding="uft-8")
+    return ruta_datos.read_text(encoding="utf-8")
 
 async def generar_respuestas(pregunta: str) -> str:
     contexto = leer_contexto()
 
     instrucciones =  f"""
-    Eres Shena, asistente informativo de cenigraf,
+    Eres Senai, asistente informativo de cenigraf,
     Responde en español, de forma clara, amable y precisa.
 
     Utiliza la informacion institucional proporcionada para responder preguntas sobre programas, inscripciones, requisitos y oferta educativa.
@@ -53,19 +53,22 @@ async def generar_respuestas(pregunta: str) -> str:
                 model = MODELO,
                 contents=contenido,
                 config = types.GenerateContentConfig(
-                temparature = 0.3,
+                temperature = 0.3,
                 max_output_tokens=800,
                 ),      
                         
         )
         
-        texto = respuesta.text
+        texto = (respuesta.text or "").strip()
+        
         if not texto:
-                return "No puede generar una respuesta, intentar de nuevo"
-
+            return "No pude generar una respuesta. Intenta de nuevo."
+        
         return texto
 
     except Exception as error:
-        print(f"Error de gemini ({type(error).__name__}): {error}")
-
-        return("No se puede generar una respuesta en este momento, verificar api del modelo ")
+            print(f"Error de Gemini ({type(error).__name__}): {error}")
+            return (
+                "No pude generar una respuesta en este momento. "
+                "Verifica la clave API, el modelo y la conexión."
+            )

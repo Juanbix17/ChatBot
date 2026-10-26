@@ -8,6 +8,7 @@ from typing import Dict, List
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
+from iagenerativa import generar_respuestas
 
 app = FastAPI(title="CeniChat - CENIGRAF", version="1.0.0")
 
@@ -21,8 +22,8 @@ class ChatResponse(BaseModel):
     reply: str
 
 
-def responder(mensaje: str) -> str:
-    """Genera una respuesta por reglas basada en la oferta educativa de CENIGRAF."""
+""" def responder(mensaje: str) -> str:
+    ""Genera una respuesta por reglas basada en la oferta educativa de CENIGRAF.""
     texto = mensaje.strip().lower()
 
     if any(saludo in texto for saludo in ("hola", "buenas", "oe", "saludos")):
@@ -65,7 +66,7 @@ def responder(mensaje: str) -> str:
     if any(p in texto for p in ("programas", "ofertas", "ofrece")):
             return "Contamos con una amplia gama de programas y ofertas educativas en CENIGRAF relacionadas al ambito de la comunicación gráfica y digital."
 
-    return f"No comprendo totalmente tu consulta sobre: «{mensaje.strip()}». Puedes seleccionar una de las preguntas frecuentes o detallar más tu inquietud."
+    return f"No comprendo totalmente tu consulta sobre: «{mensaje.strip()}». Puedes seleccionar una de las preguntas frecuentes o detallar más tu inquietud." """
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -79,8 +80,11 @@ def health() -> dict:
 
 
 @app.post("/api/chat", response_model=ChatResponse)
-def chat(request: ChatRequest) -> ChatResponse:
-    return ChatResponse(reply=responder(request.message))
+async def chat(request: ChatRequest) -> ChatResponse:
+    
+  respuesta = await generar_respuestas(request.message)
+
+  return ChatResponse(reply=respuesta)
 
 
 HTML = r"""<!doctype html>
