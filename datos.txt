@@ -1,10 +1,98 @@
-el aprendiz estudia programacion
-el aprendiz desarrolla software
-el aprendiz programa en python
-el estudiante desarrolla aplicaciones
-el estudiante aprende inteligencia artificial
-el programador desarrolla software
-python permite crear aplicaciones
-flask permite crear apis
-react permite crear interfaces
-msql permite almacenar datos
+INFORMACION GENERAL
+CENIGRAF
+Centro para la Industria de la Comunicación Gráfica
+Regional Distrito Capital · Bogotá, Colombia
+
+ALIANZA SENA
+DESDE 1967
+58 años formando talento gráfico
+Misión y visión institucional SENA
+Artes gráficas · Comunicación · Innovación
+¿Quiénes somos?
+Formamos profesionales en artes gráficas con metodologías innovadoras, acceso a tecnología de punta y un enfoque en el saber-hacer más que en la memorización. Preparamos ciudadanos críticos, solidarios y emprendedores, alineados con las tendencias del sector y las necesidades reales de la industria gráfica colombiana.
+Misión
+El SENA invierte en el desarrollo social y técnico de los trabajadores colombianos, ofreciendo formación profesional integral que impulsa su incorporación en actividades productivas para el país.
+Visión
+Ser referente en la cualificación del talento humano a nivel nacional e internacional, a través de la formación integral, el empleo, el emprendimiento y el reconocimiento de saberes previos.
+
+
+FUENTE DE INFORMACION
+
+https://comunicaciongraficasena.blogspot.com/
+
+
+PROGRAMAS TECNOLOGOS PRESENCIALES
+1. Animación 3D
+   Código: 524703
+   Duración: 27 meses
+   Estado:Inscripciones NO abiertas
+
+2. Desarrollo de medios gráficos visuales	
+   Códgo: 522309	
+   Duración: 27 meses
+   Estado:Inscripciones NO abiertas
+3. Gestión de procesos de preprensa	
+   Códgo: 922609
+   Duración: 27 meses
+   Estado: Inscripciones NO abiertas
+4. Supervisión de procesos gráficos	
+   Códgo: 922601
+   Duración: 27 meses
+   Estado:Inscripciones NO abiertas
+5  Fotografía y procesos digitales	
+   Códgo522100
+   Duración: 27 meses
+   Estado:Inscripciones NO abiertas
+6  Animación digital
+   Códgo: 513601	
+   Duración: 27 meses
+   Estado:Inscripciones NO abiertas
+7. Análisis y desarrollo de software
+   Códgo: 228118
+   Duración: 27 meses
+   Estado: Inscripciones NO abiertas
+8. Producción multimedia
+   Códgo 228101
+   Duración: 27 meses
+   Estado:Inscripciones NO abiertas
+   
+
+
+PROGRAMAS TECNOLOGOS VIRTUALES
+Análisis y desarrollo de software	228118	27	Inscripciones NO abiertas
+Animación 3D	924118	27	Inscripciones NO abiertas
+Animación digital	233101	27	Inscripciones NO abiertas
+Desarrollo de medios gráficos visuales	524704	27	Inscripciones NO abiertas
+Desarrollo publicitario	124100	27	Inscripciones NO abiertas
+Desarrollo multimedia y web	217320	27	Inscripciones NO abiertas
+Desarrollo de videojuegos	228108	27	Inscripciones NO abiertas
+Coordinación de procesos logísticos	121523	27	Inscripciones NO abiertas
+
+
+PROGRAMAS TECNICOS PRESENCIALES
+Preprensa digital	937210	15	Inscripciones NO abiertas
+Impresión offset	924102	15	Inscripciones NO abiertas
+Impresión flexográfica	924103	15	Inscripciones NO abiertas
+Impresión serigráfica	924104	15	Inscripciones NO abiertas
+Integración de contenidos digitales	524704	15	Inscripciones NO abiertas
+Programación de software	233104	15	Inscripciones NO abiertas
+Encuadernación y acabados	924301	15	Inscripciones NO abiertas
+Elaboración de audiovisuales	924100	15	Inscripciones NO abiertas
+Impresión digital	233101	15	Inscripciones NO abiertas
+Sistemas teleinformáticos	233108	15	Inscripciones NO abiertas
+
+PROGRAMAS TECNICOS VIRTUALES
+Integración de contenidos digitales	524704	15	Inscripciones NO abiertas
+Operaciones de comercio exterior	134600	15	Inscripciones NO abiertas
+Preselección de talento humano	134206	15	Inscripciones NO abiertas
+
+INFORMACION SOBRE LAS INSCRIPCIONES
+Portal de Inscripciones:
+https://betowa.sena.edu.co
+
+INFORMACION DE CONTACTO PUBLICADA
+Servicio Nacional de Aprendizaje SENA - Centro para la Industria de la Comunicación Gráfica Cenigraf - Regional Distrito Capital
+Dirección: Cra. 32 #15 - 80 - Teléfonos: 546 1500 o 596 0100 Ext.: 15 463
+Atención telefónica: lunes a viernes 7:00 a.m. a 7:00 p.m. - sábados 8:00 a.m. a 1:00 p.m.
+Línea de atención al ciudadano, empresario y línea PQRS: Bogotá +(57) 601 7366060
+Línea gratuita y resto del País: 018000 910270
